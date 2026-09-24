@@ -1,0 +1,157 @@
+/* Nexusbert - keep dark bg and original fonts, map green #E8C547 to primary #9900CC and secondary #E8C547 */
+:root {
+  --n-violet: #9900cc;
+  --n-gold: #e8c547;
+  --n-plum: #410051;
+  --n-ink: #0d100d;
+}
+
+/* Primary and secondary overrides */
+.btn {
+  background: var(--n-violet) !important;
+  border-color: var(--n-violet) !important;
+  color: white !important;
+}
+.btn:hover {
+  background: var(--n-gold) !important;
+  border-color: var(--n-gold) !important;
+  color: #0d100d !important;
+}
+
+/* Stars - should be secondary */
+.star svg path[fill="#E8C547"],
+.star svg path[fill="#E8C547"],
+.star svg path {
+  fill: var(--n-gold) !important;
+}
+.circle-btn-icon {
+  color: var(--n-gold) !important;
+}
+
+/* Award - first line solid uses primary, second line stroke uses secondary */
+.award-text-blod {
+  color: var(--n-violet) !important;
+}
+.award-text-blod-stoke {
+  -webkit-text-stroke: 2px var(--n-gold) !important;
+  color: transparent !important;
+}
+.award-circle {
+  background: var(--n-violet) !important;
+}
+.award-circle-stoke {
+  background: var(--n-gold) !important;
+}
+
+/* Menu - full screen nav */
+.nav-menu {
+  background-color: var(--n-ink) !important;
+}
+.nav-link {
+  color: white !important;
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  text-decoration: none !important;
+}
+.nav-link:hover {
+  color: var(--n-gold) !important;
+}
+.logo-wrapper {
+  text-decoration: none !important;
+}
+.logo-wrapper span {
+  text-decoration: none !important;
+}
+.menu-open-icon,
+.menu-close-icon {
+  filter: none !important;
+}
+.w-nav-button {
+  color: white !important;
+}
+.w-nav-button.w--open {
+  background-color: var(--n-violet) !important;
+  color: white !important;
+}
+.menu-wrapper {
+  background: var(--n-gold) !important;
+  border-radius: 999px !important;
+  width: 44px !important;
+  height: 44px !important;
+  display: grid !important;
+  place-items: center !important;
+  padding: 0 !important;
+}
+.w-nav-button {
+  background: var(--n-gold) !important;
+  border-radius: 999px !important;
+  width: 44px !important;
+  height: 44px !important;
+  display: grid !important;
+  place-items: center !important;
+}
+
+/* Nav menu item bg when open - alternate primary and secondary */
+.nav-menu .nav-link {
+  padding: 10px 24px !important;
+  border-radius: 8px !important;
+}
+.nav-menu .nav-link:nth-child(1):hover {
+  background: var(--n-violet) !important;
+  color: white !important;
+}
+.nav-menu .nav-link:nth-child(2):hover {
+  background: var(--n-gold) !important;
+  color: #0d100d !important;
+}
+.nav-menu .nav-link:nth-child(3):hover {
+  background: var(--n-violet) !important;
+  color: white !important;
+}
+.nav-menu .nav-link:nth-child(4):hover {
+  background: var(--n-gold) !important;
+  color: #0d100d !important;
+}
+
+/* Overline */
+.overline {
+  color: var(--n-violet) !important;
+}
+
+/* Stat numbers */
+.stat-number {
+  color: var(--n-gold) !important;
+}
+
+/* Play button */
+.play-btn {
+  background: var(--n-gold) !important;
+}
+.play-btn svg path {
+  fill: #0d100d !important;
+}
+
+/* Contact email underline - was green */
+.email-underline {
+  background-color: var(--n-gold) !important;
+  background: var(--n-gold) !important;
+  height: 2px !important;
+}
+.email-adderss {
+  color: var(--n-gold) !important;
+}
+.contact-email {
+  text-decoration: none !important;
+}
+
+/* Remove Webflow watermark forever */
+.w-webflow-badge,
+.w-webflow-badge * {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Ensure no green remains */
