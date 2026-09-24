@@ -14,7 +14,7 @@ export default function LabsPage() {
 
       <section className={"section"} style={{background:"#0D100D", color:"white", padding:"80px 0", borderTop:"1px solid rgba(255,255,255,0.06)"}}>
         <div className={"container"}>
-          <div className={"services-wrapper"} style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(300px, 1fr))", gap:40}}>
+          <div className={"services-wrapper"} style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(240px, 1fr))", gap:40}}>
             <div>
               <h2 style={{fontSize:"clamp(24px, 3vw, 32px)", fontWeight:700}}>Three ways the Labs run.</h2>
             </div>
@@ -38,7 +38,7 @@ export default function LabsPage() {
 
       <section className={"section"} style={{background:"#0D100D", color:"white", padding:"80px 0", borderTop:"1px solid rgba(255,255,255,0.06)"}}>
         <div className={"container"}>
-          <div className={"services-wrapper"} style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(300px, 1fr))", gap:40}}>
+          <div className={"services-wrapper"} style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(240px, 1fr))", gap:40}}>
             <div>
               <h2 style={{fontSize:"clamp(24px, 3vw, 32px)", fontWeight:700}}>How we decide what ships.</h2>
             </div>
@@ -66,7 +66,7 @@ export default function LabsPage() {
 
       <section className={"section"} style={{background:"#0D100D", color:"white", padding:"80px 0", borderTop:"1px solid rgba(255,255,255,0.06)"}}>
         <div className={"container"}>
-          <div className={"services-wrapper"} style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(300px, 1fr))", gap:40}}>
+          <div className={"services-wrapper"} style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(240px, 1fr))", gap:40}}>
             <div>
               <h2 style={{fontSize:"clamp(24px, 3vw, 32px)", fontWeight:700}}>The same four movements.</h2>
               <p style={{opacity:0.6, fontSize:13, marginTop:8}}>Labs work is not a different company. It is the same method, with a higher appetite for being wrong early.</p>

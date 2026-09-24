@@ -3342,7 +3342,8 @@ h4 {
   color: #E8C547;
 }
 .section {
-  padding: 80px 40px;
+  /* padding: 80px 40px; */
+  margin: 0px 50px;
 }
 .section.video {
   padding-top: 40px;

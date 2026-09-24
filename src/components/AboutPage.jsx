@@ -13,7 +13,7 @@ export default function AboutPage() {
       </section>
       <section className={"section"} style={{background:"#0D100D", color:"white", padding:"80px 0"}}>
         <div className={"container"}>
-          <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(160px, 1fr))", gap:1, background:"rgba(255,255,255,0.08)", borderRadius:16, overflow:"hidden"}}>
+          <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(140px, 1fr))", gap:1, background:"rgba(255,255,255,0.08)", borderRadius:16, overflow:"hidden"}}>
             <div style={{background:"#0D100D", padding:24, textAlign:"center"}}>
               <div style={{fontWeight:700}}>AI and software engineering house</div>
             </div>
@@ -27,7 +27,7 @@ export default function AboutPage() {
               <div style={{fontWeight:700}}>Build, spike, or advise</div>
             </div>
           </div>
-          <div style={{display:"grid", gridTemplateColumns:"repeat(4, 1fr)", gap:1, background:"rgba(255,255,255,0.08)", borderRadius:16, overflow:"hidden", marginTop:16}}>
+          <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(140px, 1fr))", gap:1, background:"rgba(255,255,255,0.08)", borderRadius:16, overflow:"hidden", marginTop:16}}>
             <div style={{background:"rgba(255,255,255,0.04)", padding:20, textAlign:"center"}}>
               <div style={{fontSize:28, fontWeight:800, color:"#E8C547"}}>2019</div>
               <div style={{fontSize:11, opacity:0.6, marginTop:4}}>Founded in Lagos</div>
@@ -49,7 +49,7 @@ export default function AboutPage() {
       </section>
       <section className={"section"} style={{background:"#0D100D", color:"white", padding:"80px 0", borderTop:"1px solid rgba(255,255,255,0.06)"}}>
         <div className={"container"}>
-          <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(300px, 1fr))", gap:32}}>
+          <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(240px, 1fr))", gap:32}}>
             <h2 style={{fontSize:"clamp(24px, 3vw, 36px)", fontWeight:800}}>Intelligence is a systems problem.</h2>
             <div style={{opacity:0.75, fontSize:14, lineHeight:1.6}}>
               <p>The industry is loud about models and quiet about everything else: the API that has to hold, the cloud bill, the eval that nobody wants to own, the integration with last decades system of record.</p>
