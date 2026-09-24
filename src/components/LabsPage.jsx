@@ -12,7 +12,7 @@ export default function LabsPage() {
         </div>
       </section>
 
-      <section className={"section"} style={{background:"#0D100D", color:"white", padding:"40px 0 60px", borderTop:"1px solid rgba(255,255,255,0.06)"}}>
+      <section className={"section"} style={{background:"#0D100D", color:"white", padding:"80px 0", borderTop:"1px solid rgba(255,255,255,0.06)"}}>
         <div className={"container"}>
           <div className={"services-wrapper"} style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(300px, 1fr))", gap:40}}>
             <div>
@@ -36,7 +36,7 @@ export default function LabsPage() {
         </div>
       </section>
 
-      <section className={"section"} style={{background:"#0D100D", color:"white", padding:"40px 0", borderTop:"1px solid rgba(255,255,255,0.06)"}}>
+      <section className={"section"} style={{background:"#0D100D", color:"white", padding:"80px 0", borderTop:"1px solid rgba(255,255,255,0.06)"}}>
         <div className={"container"}>
           <div className={"services-wrapper"} style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(300px, 1fr))", gap:40}}>
             <div>
@@ -64,7 +64,7 @@ export default function LabsPage() {
         </div>
       </section>
 
-      <section className={"section"} style={{background:"#0D100D", color:"white", padding:"40px 0 80px", borderTop:"1px solid rgba(255,255,255,0.06)"}}>
+      <section className={"section"} style={{background:"#0D100D", color:"white", padding:"80px 0", borderTop:"1px solid rgba(255,255,255,0.06)"}}>
         <div className={"container"}>
           <div className={"services-wrapper"} style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(300px, 1fr))", gap:40}}>
             <div>

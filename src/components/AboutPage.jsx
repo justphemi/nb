@@ -5,13 +5,13 @@ export default function AboutPage() {
   return (
     <>
       <Header />
-      <section className={"section"} style={{background:"#0D100D", color:"white", padding:"80px 0 40px"}}>
+      <section className={"section"} style={{background:"#0D100D", color:"white", padding:"80px 0"}}>
         <div className={"container"}>
           <h1 style={{fontSize:"clamp(36px, 6vw, 64px)", fontWeight:800, lineHeight:0.95}}>A lab that ships.</h1>
           <p style={{marginTop:16, maxWidth:680, opacity:0.7, fontSize:16, lineHeight:1.6}}>Nexusbert Technology Labs is an artificial intelligence and software engineering company. We design, develop, and deploy AI-powered products, backend systems, cloud solutions, APIs, machine learning applications, automation tools, and enterprise platforms and we consult on the operating model that has to live around them.</p>
         </div>
       </section>
-      <section className={"section"} style={{background:"#0D100D", color:"white", padding:"20px 0 60px"}}>
+      <section className={"section"} style={{background:"#0D100D", color:"white", padding:"80px 0"}}>
         <div className={"container"}>
           <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(160px, 1fr))", gap:1, background:"rgba(255,255,255,0.08)", borderRadius:16, overflow:"hidden"}}>
             <div style={{background:"#0D100D", padding:24, textAlign:"center"}}>

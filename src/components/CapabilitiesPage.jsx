@@ -18,13 +18,13 @@ export default function CapabilitiesPage() {
   return (
     <>
       <Header />
-      <section className={"section"} style={{background:"#0D100D", color:"white", padding:"80px 0 40px"}}>
+      <section className={"section"} style={{background:"#0D100D", color:"white", padding:"80px 0"}}>
         <div className={"container"}>
           <h1 style={{fontSize:"clamp(36px, 6vw, 64px)", fontWeight:800, lineHeight:0.95}}>From model to production.</h1>
           <p style={{marginTop:16, maxWidth:640, opacity:0.7, fontSize:16, lineHeight:1.6}}>Eleven practices. One standard: if it cannot be operated, it is not finished. Nexusbert covers the product, the intelligence, the infrastructure, and the partnership around them.</p>
         </div>
       </section>
-      <section className={"section services"} style={{background:"#0D100D", color:"white", padding:"20px 0 60px", borderTop:"1px solid rgba(255,255,255,0.06)"}}>
+      <section className={"section services"} style={{background:"#0D100D", color:"white", padding:"80px 0", borderTop:"1px solid rgba(255,255,255,0.06)"}}>
         <div className={"container"}>
           <div className={"services-wrapper"} style={{display:"grid", gridTemplateColumns:"repeat(auto-fit, minmax(300px, 1fr))", gap:40}}>
             <div>
@@ -35,8 +35,8 @@ export default function CapabilitiesPage() {
             <div className={"services-list"} style={{display:"flex", flexDirection:"column"}}>
               {caps.map((c, i) => (
                 <div key={c.t} className={"service-item w-dropdown"} data-delay={"0"} data-hover={"false"} style={{borderBottom:"1px solid rgba(255,255,255,0.08)"}}>
-                  <div aria-controls={`cap-${i}`} aria-expanded={"false"} aria-haspopup={"menu"} className={"service-title w-dropdown-toggle"} role={"button"} tabIndex={"0"} style={{display:"flex", justifyContent:"space-between", alignItems:"center", padding:"18px 0", cursor:"pointer"}}>
-                    <div style={{fontSize:16, fontWeight:700}}>{c.t}</div>
+                  <div aria-controls={`cap-${i}`} aria-expanded={"false"} aria-haspopup={"menu"} className={"service-title w-dropdown-toggle"} role={"button"} tabIndex={"0"} style={{display:"flex", justifyContent:"space-between", alignItems:"center", padding:"18px 0", cursor:"pointer", color:"white"}}>
+                    <div style={{fontSize:16, fontWeight:700, color:"white"}}>{c.t}</div>
                     <div className={"chevron-icon"} style={{width:20, height:20, display:"grid", placeItems:"center", opacity:0.7}}>
                       <svg fill={"none"} height={"16"} viewBox={"0 0 24 25"} width={"16"}><path d={"M4 9.27L12 17.27L20 9.27"} stroke={"white"} strokeWidth={"2"} strokeLinecap={"round"} strokeLinejoin={"round"}></path></svg>
                     </div>
