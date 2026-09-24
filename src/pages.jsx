@@ -12,9 +12,21 @@ import Faq from "./components/Faq.jsx";
 import Section4 from "./components/Section4.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
+import CapabilitiesPage from "./components/CapabilitiesPage.jsx";
+import LabsPage from "./components/LabsPage.jsx";
+import AboutPage from "./components/AboutPage.jsx";
+import ContactPage from "./components/ContactPage.jsx";
+import PrivacyPage from "./components/PrivacyPage.jsx";
+import TermsPage from "./components/TermsPage.jsx";
 
 export const pages = {
-  "/": { component: Home, title: "NEXUSBERT — Intelligence, engineered." },
+  "/": { component: Home, title: "NEXUSBERT - Intelligence, engineered." },
+  "/capabilities": { component: CapabilitiesPage, title: "Capabilities - NEXUSBERT" },
+  "/labs": { component: LabsPage, title: "Labs - NEXUSBERT" },
+  "/about": { component: AboutPage, title: "About - NEXUSBERT" },
+  "/contact": { component: ContactPage, title: "Contact - NEXUSBERT" },
+  "/privacy": { component: PrivacyPage, title: "Privacy Policy - NEXUSBERT" },
+  "/terms": { component: TermsPage, title: "Terms of Service - NEXUSBERT" },
 };
 
 let HomeHasRun = false;

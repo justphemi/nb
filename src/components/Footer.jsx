@@ -45,18 +45,10 @@ export default function Footer() {
               className={"company-links-wrapper"}
               id={"w-node-_5f0467db-8010-87ac-7ae7-1dafabf8ea5e-73b23ace"}
             >
-              <a className={"company-link"} href={"#services"}>
-                {"Services"}
-              </a>
-              <a className={"company-link"} href={"#works"}>
-                {"Portfolio"}
-              </a>
-              <a className={"company-link"} href={"#about"}>
-                {"About us"}
-              </a>
-              <a className={"company-link"} href={"#faq"}>
-                {"Faq's"}
-              </a>
+              <a className={"company-link"} href={"/capabilities"}>{"Capabilities"}</a>
+              <a className={"company-link"} href={"/labs"}>{"Labs"}</a>
+              <a className={"company-link"} href={"/about"}>{"About"}</a>
+              <a className={"company-link"} href={"/contact"}>{"Contact"}</a>
             </div>
             <div
               className={"social-link-wrapper"}
@@ -65,7 +57,7 @@ export default function Footer() {
               <a className={"social-link"} href={"#"} target={"_blank"}>
                 {"LinkedIn"}
               </a>
-              <a className={"social-link"} href={"#"} target={"_blank"}>
+              <a className={"social-link"} href={"https://x.com/nexusbert"} target={"_blank"} rel={"noopener noreferrer"}>
                 {"X"}
               </a>
               <a className={"social-link"} href={"mailto:hello@nexusbert.com"}>
@@ -78,10 +70,10 @@ export default function Footer() {
         <div className={"copyright-wrapper"}>
           <div className={"copyright-left"}>
             <div className={"legal-link-wrapper"}>
-              <a className={"legal-link"} href={"#"}>
+              <a className={"legal-link"} href={"/privacy"}>
                 {"Privacy"}
               </a>
-              <a className={"legal-link"} href={"#"}>
+              <a className={"legal-link"} href={"/terms"}>
                 {"Terms"}
               </a>
               <span className={"legal-link"} style={{ opacity: 0.6 }}>

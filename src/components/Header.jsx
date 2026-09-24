@@ -1,25 +1,20 @@
+import { useEffect } from "react";
+import { bootSiteRuntime } from "../site-runtime.js";
 export default function Header() {
+  useEffect(() => { bootSiteRuntime(); }, []);
   return (
     <nav className={"navbar"}>
       <div className={"container nav"}>
         <div className={"navbar-wrapper"}>
           <div className={"nav-menu"}>
-            <a className={"nav-link"} href={"#about"}>
-              {"About"}
-            </a>
-            <a className={"nav-link"} href={"#services"}>
-              {"Services"}
-            </a>
-            <a className={"nav-link"} href={"#works"}>
-              {"Work"}
-            </a>
-            <a className={"nav-link"} href={"#contact"}>
-              {"Contact"}
-            </a>
+            <a className={"nav-link"} href={"/capabilities"}>{"Capabilities"}</a>
+            <a className={"nav-link"} href={"/labs"}>{"Labs"}</a>
+            <a className={"nav-link"} href={"/about"}>{"About"}</a>
+            <a className={"nav-link"} href={"/contact"}>{"Contact"}</a>
           </div>
           <a
             className={"logo-wrapper w-inline-block w--current"}
-            href={"#Header"}
+            href={"/"}
             style={{ display: "flex", alignItems: "center", gap: 12 }}
           >
             <span
